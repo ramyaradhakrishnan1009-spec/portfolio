@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+/* NAVBAR */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    flex-wrap: wrap;
+}
+
+.navbar nav {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar nav a {
+    text-decoration: none;
+    color: #1e293b;
+    font-weight: 500;
+}
+
+
+.logo span {
+    color: #2563eb;
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .navbar nav {
+        justify-content: center;
+        margin-top: 10px;
+    }
+}
+ 
+
+.btn {
+    background: #2563eb;
+    color: white !important;
+    padding: 8px 14px;
+    border-radius: 6px;
+}
+
+/* HERO */
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 40px;
+    background: linear-gradient(to right, #0f172a, #1e3a8a);
+    color: white;
+    gap: 30px;
+}
+
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 60px 20px;
+    }
+
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-card {
+        width: 100%;
+        max-width: 350px;
+    }
+}
+
+.hero-text h1 {
+    font-size: 38px;
+}
+
+.hero-text p {
+    margin-top: 10px;
+}
+
+.hero-card {
+    background: white;
+    color: #1e293b;
+    padding: 25px;
+    border-radius: 12px;
+    width: 320px;
+}
+
+/* SECTIONS */
+.section {
+    padding: 60px 40px;
+    max-width: 1100px;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding: 40px 20px;
+    }
+}
+
+
+.section h2 {
+    margin-bottom: 20px;
+}
+
+.light {
+    background: white;
+}
+
+/* PROJECT / CARD */
+.project {
+    background: white;
+    padding: 25px;
+    margin-bottom: 25px;
+    border-left: 5px solid #2563eb;
+    border-radius: 8px;
+}
+
+@media (max-width: 576px) {
+    .project {
+        padding: 20px;
+    }
+}
+
+
+.project h4 {
+    margin-top: 15px;
+}
+
+.project ul {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+/* FOOTER */
+.footer {
+    background: #0f172a;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+    .hero {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .hero-card {
+        margin-top: 30px;
+    }
+}
+
+
+#contact .container {
+    padding-left: 15px;
+    padding-right: 15px;
+}
