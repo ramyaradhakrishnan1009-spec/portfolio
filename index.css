@@ -55,9 +55,15 @@ body {
 
 .btn {
     background: #2563eb;
-    color: white !important;
+    color: #ffffff !important;
     padding: 8px 14px;
     border-radius: 6px;
+    transition: all 0.3s ease;
+}
+
+.btn:hover {
+    background: #000000;   /* hover background black */
+    color: #ffffff !important; /* text white for clarity */
 }
 
 /* HERO */
@@ -176,5 +182,6 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
 
