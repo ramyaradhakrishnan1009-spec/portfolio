@@ -55,7 +55,7 @@ body {
 
 .btn {
     background: #2563eb;
-    color: #2563eb !important;
+    color: white !important;
     padding: 8px 14px;
     border-radius: 6px;
 }
@@ -176,4 +176,5 @@ body {
     padding-left: 15px;
     padding-right: 15px;
 }
+
 
